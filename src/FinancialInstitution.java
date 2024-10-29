@@ -10,6 +10,7 @@ public class FinancialInstitution {
 
         stock.setStockValue(100.0);
         stock.readValue();
-
+        stock.detach(euro);
+        stock.detach(dollar);
     }
 }
